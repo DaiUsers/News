@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RootViewController">
+            <connections>
+                <outlet property="label" destination="OtF-hk-8IW" id="cfC-JK-TjF"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OtF-hk-8IW">
+                    <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R9K-uC-Mnj">
+                    <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                    <state key="normal" title="OFF">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="R9K-uC-Mnj" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="10" id="7ou-vW-GTH"/>
+                <constraint firstAttribute="trailing" secondItem="OtF-hk-8IW" secondAttribute="trailing" constant="10" id="9SN-yJ-NsJ"/>
+                <constraint firstItem="OtF-hk-8IW" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="64" id="LiE-1o-htQ"/>
+                <constraint firstItem="R9K-uC-Mnj" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="10" id="caZ-P8-Nbq"/>
+                <constraint firstItem="R9K-uC-Mnj" firstAttribute="top" secondItem="OtF-hk-8IW" secondAttribute="bottom" constant="30" id="cqL-PY-lDV"/>
+                <constraint firstItem="R9K-uC-Mnj" firstAttribute="top" secondItem="OtF-hk-8IW" secondAttribute="bottom" constant="70" id="esw-0X-u0A"/>
+                <constraint firstAttribute="trailing" secondItem="R9K-uC-Mnj" secondAttribute="trailing" constant="10" id="kB5-xW-r0m"/>
+                <constraint firstAttribute="trailing" secondItem="R9K-uC-Mnj" secondAttribute="trailing" constant="10" id="php-9o-Vaa"/>
+                <constraint firstItem="OtF-hk-8IW" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="10" id="us3-BA-7UE"/>
+            </constraints>
+            <variation key="default">
+                <mask key="subviews">
+                    <exclude reference="OtF-hk-8IW"/>
+                    <exclude reference="R9K-uC-Mnj"/>
+                </mask>
+                <mask key="constraints">
+                    <exclude reference="9SN-yJ-NsJ"/>
+                    <exclude reference="LiE-1o-htQ"/>
+                    <exclude reference="us3-BA-7UE"/>
+                    <exclude reference="7ou-vW-GTH"/>
+                    <exclude reference="caZ-P8-Nbq"/>
+                    <exclude reference="cqL-PY-lDV"/>
+                    <exclude reference="esw-0X-u0A"/>
+                    <exclude reference="kB5-xW-r0m"/>
+                    <exclude reference="php-9o-Vaa"/>
+                </mask>
+            </variation>
+            <variation key="widthClass=compact">
+                <mask key="subviews">
+                    <include reference="OtF-hk-8IW"/>
+                    <include reference="R9K-uC-Mnj"/>
+                </mask>
+                <mask key="constraints">
+                    <include reference="9SN-yJ-NsJ"/>
+                    <include reference="LiE-1o-htQ"/>
+                    <include reference="us3-BA-7UE"/>
+                    <exclude reference="7ou-vW-GTH"/>
+                    <include reference="caZ-P8-Nbq"/>
+                    <include reference="cqL-PY-lDV"/>
+                    <exclude reference="esw-0X-u0A"/>
+                    <include reference="kB5-xW-r0m"/>
+                    <exclude reference="php-9o-Vaa"/>
+                </mask>
+            </variation>
+        </view>
+    </objects>
+</document>

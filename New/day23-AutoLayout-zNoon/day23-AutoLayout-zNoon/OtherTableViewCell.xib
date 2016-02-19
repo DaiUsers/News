@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Identifier" rowHeight="138" id="KGk-i7-Jjw" customClass="OtherTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="349" height="138"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="349" height="137"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2gD-Jl-eyX">
+                        <rect key="frame" x="10" y="10" width="329" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aaA-0B-bBk">
+                        <rect key="frame" x="259" y="51" width="80" height="66"/>
+                        <color key="backgroundColor" red="0.55733835239999996" green="1" blue="0.37445575739999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="80" id="Ygm-SG-7fn"/>
+                        </constraints>
+                        <state key="normal" title="Button">
+                            <color key="titleColor" red="0.19475970910000001" green="1" blue="0.29409686460000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="2gD-Jl-eyX" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="Hyq-43-2hQ"/>
+                    <constraint firstItem="2gD-Jl-eyX" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="LP7-Zp-NBO"/>
+                    <constraint firstItem="aaA-0B-bBk" firstAttribute="top" secondItem="2gD-Jl-eyX" secondAttribute="bottom" constant="20" id="QQU-Y8-pDO"/>
+                    <constraint firstAttribute="trailing" secondItem="2gD-Jl-eyX" secondAttribute="trailing" constant="10" id="flL-OI-maL"/>
+                    <constraint firstAttribute="bottom" secondItem="aaA-0B-bBk" secondAttribute="bottom" constant="20" id="j05-PH-t2M"/>
+                    <constraint firstAttribute="trailing" secondItem="aaA-0B-bBk" secondAttribute="trailing" constant="10" id="m4c-Gw-ORD"/>
+                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="2gD-Jl-eyX" secondAttribute="bottom" constant="10" id="xOA-7c-ikC"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="contentLabel" destination="2gD-Jl-eyX" id="oEK-rK-yor"/>
+            </connections>
+            <point key="canvasLocation" x="205.5" y="186"/>
+        </tableViewCell>
+    </objects>
+</document>
